@@ -1,6 +1,6 @@
-# 📈 AlphaTrend Strategy
+# 📈Trend Strategy
 
-The **AlphaTrend Strategy** is a dynamic, trend-following Pine Script built for TradingView that leverages ATR volatility filtering and RSI momentum confirmation. This tool is ideal for traders looking to automate entries and exits with risk management built-in.
+The **Trend Strategy** is a dynamic, trend-following Pine Script built for TradingView that leverages ATR volatility filtering and RSI momentum confirmation. This tool is ideal for traders looking to automate entries and exits with risk management built-in.
 
 ---
 
