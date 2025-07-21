@@ -1,5 +1,5 @@
 //@version=5
-strategy("AlphaTrend Strategy", overlay=true)
+strategy("Trend Strategy", overlay=true)
 
 // Parameters
 coeff = input.float(1, "Multiplier", step=0.1, group="AlphaTrend")
@@ -10,7 +10,7 @@ riskToReward = input.bool(true, "1:1 Risk to Reward Ratio", group="Risk Manageme
 slPerc = input.float(1.0, "SL Percentage", group="Risk Management")
 tpPerc = input.float(1.0, "TP Percentage", group="Risk Management")
 
-// AlphaTrend Calculation
+// Trend Calculation
 ATR = ta.sma(ta.tr, AP)
 upT = low - ATR * coeff
 downT = high + ATR * coeff
